@@ -1,0 +1,26 @@
+{
+  "name": "asr-disparities",
+  "version": "1.0.0",
+  "description": "Files and code to reproduce results found in our PNAS paper can be found here.",
+  "main": "index.js",
+  "scripts": {
+    "upload": "node upload.js",
+    "download": "node download.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hannah-trint/asr-disparities.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hannah-trint/asr-disparities/issues"
+  },
+  "homepage": "https://github.com/hannah-trint/asr-disparities#readme",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2"
+  }
+}
